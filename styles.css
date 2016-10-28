@@ -1,0 +1,149 @@
+/*Colors*/
+/*Grey:  #828282
+Blue:  #62ACDF*/
+/*------*/
+
+/*Navigation*/
+.navbar-custom{
+	background: none;
+	padding-top: 20px;	
+}
+
+#nav{
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#logo{
+	/*padding: 10px 10px 0 10px;*/
+	width: 125px !important;
+	height: 130px !important;
+}
+
+#nav a {
+	color: #828282 !important;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#nav a:link {
+	color: #828282 !important;
+}
+
+#nav a:visited {
+	color: #828282 !important;
+}
+
+#nav a:hover {
+	color: #828282 !important;
+	text-decoration: none;
+	background-color: white;
+}
+
+#nav a:active {
+	color: #828282;
+}
+
+button.navbar-toggle.collapsed{
+	background-color: #828282;
+}
+
+span.icon-bar{
+	background-color: #62ACDF;
+}
+.glyphicon.glyphicon-download-alt{
+	font-size: 17px;
+	
+}
+
+/*------------------------Navigation End---------------------------------------------------*/
+
+
+/*Body Content*/
+
+.jumbotron{
+	
+	width: 100% !important;
+	height: 300px !important;
+	background-color: #cdfdf4 !important;
+	border-radius: 0px !important;
+}
+
+#body{
+	padding-top: 150px;
+}
+
+
+/*------------------------Body Content End---------------------------------------------------*/
+
+/*Resume*/
+
+#resume{
+	width: 800px;
+	height: 1000px;
+	padding-bottom: 20px;
+}
+
+.btn-custom{
+	background-color: #828282;
+	color: white;	
+	width: 250px;
+}
+
+.btn-custom:link {
+	color: white !important;
+	text-decoration: none !important;
+	
+}
+.btn-custom:visited {
+	color: white !important;
+	text-decoration: none !important;
+	
+}
+
+.btn-custom:hover {
+	color: white !important;
+	text-decoration: none !important;
+	
+}
+/*------------------------Resume End---------------------------------------------------------*/
+
+/*Footer*/
+
+footer {
+	background-color: #828282;
+	color: white;
+	padding: 5px 32px 12px 32px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+	color: white;
+
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.glyphicon.glyphicon-chevron-up{
+	font-size: 24px;
+	color: #62ACDF;
+	padding-left: 45px;
+}
+.social{
+	display: inline;
+	list-style: none;
+
+}
+.fa.fa-square-o {
+	color: white;
+}
+.fa{
+	color: #62ACDF;
+}
+
+
+/*------------------------Footer End---------------------------------------------------------*/
