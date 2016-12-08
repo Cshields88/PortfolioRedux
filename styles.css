@@ -3,6 +3,12 @@ Colors*/
 Blue:  #62ACDF*/
 /*------*/
 
+/*Fonts
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Ultra', serif;*/
+
+
+
 /*Navigation*/
 .navbar-custom{
 	background: none;
@@ -264,4 +270,21 @@ i.fa.fa-github{
 	font-size: 28px;
 }
 
+.helloHeader{
+	font-size: 40px;
+	color: #62ACDF;
+	/*font-family: 'Bowlby One SC', cursive;*/
+	font-family: 'Ultra', serif;*/
+
+}
+
+.bio{
+	color: #828282;
+	font-size: 27px;
+	padding-top: 25px;
+}
+
+.headshot{
+	margin-bottom: 50px;
+}
 /*------------------------About End------------------------------------------------------------
