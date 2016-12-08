@@ -21,119 +21,93 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    </head>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js'></script>
 
-    <body>
-    	<!-- Navigation -->
-    	<nav class="navbar navbar-custom">
-    		<div class="container">
-    			<!-- Brand and toggle get grouped for better mobile display -->
-    			<div class="navbar-header">
-    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
-    					<span class="sr-only">Toggle navigation</span>
-    					<span class="icon-bar"></span>
-    					<span class="icon-bar"></span>
-    					<span class="icon-bar"></span>
-    				</button>
-    				<a href="index.html"><img class="img-responsive col-xs-4 col-lg-12 navbar-brand" src="assets/cs_logosm.png" alt="" id="logo"></a>
-    			</div>
+      </head>
 
-    			<!-- Collect the nav links, forms, and other content for toggling -->
-    			<div class="collapse navbar-collapse" id="nav">
-    				<ul class="nav navbar-nav navbar-right">
-    					<li><a href="portfolio.html">Portfolio</a></li>
-    					<li><a href="about.html">About</a></li>
-    					<li><a href="contact.html">Contact</a></li>
-    					<li><a href="assets/Cshields_Resume.pdf" download>Resume <span class="glyphicon glyphicon-download-alt"></span></a></li>
-    				</ul>
-    			</div><!-- /.navbar-collapse -->
-    		</div><!-- /.container-fluid -->
-    	</nav>
-    	<!-- Navigation End -->
+      <body">
+      <!-- Navigation -->
+      <nav class="navbar navbar-custom">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a href="#/home"><img class="img-responsive col-xs-4 col-lg-12 navbar-brand" src="assets/cs_logosm.png" alt="" id="logo"></a>
+       </div>
 
-
-
-
-    	
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="nav">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/home">About</a></li>
+          <li><a href="#/portfolio">Portfolio</a></li>
+          <li><a href="assets/Cshields_Resume.pdf" download>Resume <span class="glyphicon glyphicon-download-alt"></span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Navigation End -->
 
 
 
-    	<!-- Content -->
-    	<div class="container">
-    		<div class="row">
-    			<div>
-    				<div class="jumbotron center-block">
-
-    					<!-- <ul ng-init="tab = 1">
-    						<li ng-class="{active: tab === 1}"><a href="" ng-click="tab = 1">Tab 1</a></li>
-    						<li ng-class="{active: tab === 2}"><a href="" ng-click="tab = 2">Tab 2</a></li>
-    						<li ng-class="{active: tab === 3}"><a href="" ng-click="tab = 3">Tab 3</a></li>
-    						<br><br>
-
-    						<p ng-show="tab === 1">Tab 1 Content</p>
-    						<p ng-show="tab === 2">Tab 1 Content</p>
-    						<p ng-show="tab === 3">Tab 1 Content</p>
-    						<p>{{4+6}}</p>
-    					</ul> -->
+  <div ng-view></div>
 
 
-    					<div ng-includes="index.html"></div>
-
-    				</div>
-    				
-    			</div>
-    		</div>
-    	</div>
-    	<!-- Content End -->
-
-    	<!-- Footer -->
-    	<footer class="text-center">
-    		<a class="up-arrow" href="#myPage">
-    			<span class="glyphicon glyphicon-chevron-up"></span>
-    		</a>
-
-    		<ul class="social">
-    			<li>
-    				<a href="">
-    					<span class="fa-stack fa-lg">
-    						<i class="fa fa-square-o fa-stack-2x"></i>
-    						<i class="fa fa-facebook fa-stack-1x"></i>
-    					</span>
-    				</a>
-    				<a href="">
-    					<span class="fa-stack fa-lg">
-    						<i class="fa fa-square-o fa-stack-2x"></i>
-    						<i class="fa fa-twitter fa-stack-1x"></i>
-    					</span>
-    				</a>
-    				<a href="">
-    					<span class="fa-stack fa-lg">
-    						<i class="fa fa-square-o fa-stack-2x"></i>
-    						<i class="fa fa-twitter fa-stack-1x"></i>
-    					</span>
-    				</a>
-    				<a href="">
-    					<span class="fa-stack fa-lg">
-    						<i class="fa fa-square-o fa-stack-2x"></i>
-    						<i class="fa fa-twitter fa-stack-1x"></i>
-    					</span>
-    				</a>
-    			</li>
-
-    		</ul>
-    		
-    		<p>&copy 2016, Chris Shields</p> 
-    	</footer>
-    	<!-- Footer End -->
 
 
-    	
-    	<script src="angular.min.js"></script>
-    	<script src="app.js"></script>
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    	
 
-    	
-    </body>
-    </html>
+  <br>
+  <!-- Footer -->
+  <hr>
+  <footer class="text-center">
+    <br><br>
+    <a class="btn btn-custom" href="mailto:chrisshieldsdesign@gmail.com?Subject=Inquiry%20From%20Chris%20Shields%20Website"> <span class="glyphicon glyphicon-envelope"></span> Email Me</a>
+
+    <br>
+    <ul class="social">
+     <li>
+      <a href="">
+       <span class="fa-stack fa-lg">
+        <i class="fa fa-linkedin fa-stack-2x"></i>
+      </span>
+    </a>
+    <a href="">
+     <span class="fa-stack fa-lg">
+      <i class="fa fa-twitter fa-stack-2x"></i>
+    </span>
+  </a>
+  <a href="">
+   <span class="fa-stack fa-lg">
+    <i class="fa fa-github fa-stack-2x"></i>
+  </span>
+</a>
+<a href="">
+ <span class="fa-stack fa-lg">
+  <i class="fa fa-codepen fa-stack-2x"></i>
+</span>
+</a>
+</li>
+
+</ul>
+<br>
+<br>
+<p>&copy 2016, Chris Shields, All Rights Reserved.</p> 
+</footer>
+<!-- Footer End -->
+
+
+
+
+<script src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

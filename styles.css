@@ -1,4 +1,4 @@
-/*Colors*/
+Colors*/
 /*Grey:  #828282
 Blue:  #62ACDF*/
 /*------*/
@@ -45,105 +45,223 @@ Blue:  #62ACDF*/
 	color: #828282;
 }
 
-button.navbar-toggle.collapsed{
+/*button.navbar-toggle.collapsed{
 	background-color: #828282;
-}
+	}*/
 
-span.icon-bar{
-	background-color: #62ACDF;
-}
-.glyphicon.glyphicon-download-alt{
-	font-size: 17px;
+	span.icon-bar{
+		background-color: #62ACDF;
+	}
+	.glyphicon.glyphicon-download-alt{
+		font-size: 17px;
+
+	}
+
+	/*------------------------Navigation End---------------------------------------------------*/
+
+
+	/*Body Content*/
+
+	.jumbotron{
+
+		width: 100% !important;
+		height: 300px !important;
+		background-color: #cdfdf4 !important;
+		border-radius: 0px !important;
+	}
+
+	#body{
+		padding-top: 150px;
+	}
+
+
+	/*------------------------Body Content End---------------------------------------------------*/
+
+	/*Resume*/
+
+	#resume{
+		width: 800px;
+		height: 1000px;
+		padding-bottom: 20px;
+	}
+
+	.btn-custom{
+		background-color: #828282;
+		color: white;	
+		width: 250px;
+	}
+
+	.btn-custom:link {
+		color: white !important;
+		text-decoration: none !important;
+
+	}
+	.btn-custom:visited {
+		color: white !important;
+		text-decoration: none !important;
+
+	}
+
+	.btn-custom:hover {
+		color: white !important;
+		text-decoration: none !important;
+
+	}
+	/*------------------------Resume End---------------------------------------------------------*/
+
+	/*Footer*/
+
+	footer {	
+		color: #828282;
+		padding: 5px 32px 12px 32px;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+
+	footer a {
+		color: white;
+
+	}
+
+	footer a:hover {
+		color: white;
+		text-decoration: none;
+	}
+
+	.social{
+		display: inline;
+		list-style: none;
+
+	}
+
+	.fa{
+		color: #62ACDF;
+		padding-top: 10px;
+		padding-right: 5px;
+
+	}
+	a.btn-custom{
+		color: white;
+		background-color: #62ACDF;
+		font-size: 38px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	span.glyphicon-envelope{
+		padding-right: 10px;
+		font-size: 30px;
+	}
+
+	/*------------------------Footer End---------------------------------------------------------*/
+
+	/*Portfolio*/
+
+	.thumbnail{
+		margin: 2px !important;
+		width: 375px !important;
+		margin-bottom: 15px !important;
+		opacity: 0.6;
+	}
+
+	.thumbnail:hover{
+		margin: 2px !important;
+		width: 375px !important;
+		/*margin-bottom: 10px !important;*/
+		opacity: 1.0;
+		cursor: hand;
+		transform: scale(1.02);
+	}
+
 	
+
+	p.caseStudy{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		text-decoration: none;
+		color: #62ACDF;
+	}
 }
-
-/*------------------------Navigation End---------------------------------------------------*/
-
-
-/*Body Content*/
-
-.jumbotron{
-	
-	width: 100% !important;
-	height: 300px !important;
-	background-color: #cdfdf4 !important;
-	border-radius: 0px !important;
-}
-
-#body{
-	padding-top: 150px;
-}
-
-
-/*------------------------Body Content End---------------------------------------------------*/
-
-/*Resume*/
-
-#resume{
-	width: 800px;
-	height: 1000px;
-	padding-bottom: 20px;
-}
-
-.btn-custom{
-	background-color: #828282;
-	color: white;	
-	width: 250px;
-}
-
-.btn-custom:link {
-	color: white !important;
-	text-decoration: none !important;
-	
-}
-.btn-custom:visited {
-	color: white !important;
-	text-decoration: none !important;
-	
-}
-
-.btn-custom:hover {
-	color: white !important;
-	text-decoration: none !important;
-	
-}
-/*------------------------Resume End---------------------------------------------------------*/
-
-/*Footer*/
-
-footer {
-	background-color: #828282;
-	color: white;
-	padding: 5px 32px 12px 32px;
+p a.caseStudy{			
+	padding-left: 10px;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-decoration: none;					
 }
 
-footer a {
-	color: white;
-
-}
-
-footer a:hover {
-	color: white;
+p a.caseStudy:link{			
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
 	text-decoration: none;
-}
-
-.glyphicon.glyphicon-chevron-up{
-	font-size: 24px;
-	color: #62ACDF;
-	padding-left: 45px;
-}
-.social{
-	display: inline;
-	list-style: none;
-
-}
-.fa.fa-square-o {
-	color: white;
-}
-.fa{
 	color: #62ACDF;
 }
+p a.caseStudy:visited{			
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #62ACDF;
+}	
+p a.caseStudy:hover{			
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #62ACDF;
+}
+p a.caseStudy:active{			
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #62ACDF;
+}
+
+.portfolioTitle{
+	font-family: 'Merriweather', serif;
+	color: #828282;			
+}
 
 
-/*------------------------Footer End---------------------------------------------------------*/
+i.fa.fa-github{
+	color: #62ACDF;
+	padding-bottom: 5px;
+	text-align: center;
+
+}
+
+.summary{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	/*align-content: left !important;*/
+	color: #828282;
+}
+
+.subtitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center !important;
+	color: #62ACDF;
+}
+
+
+
+
+/*------------------------Portfolio End---------------------------------------------------------*/
+
+/*About*/
+
+.aboutHeader{
+	color: #62ACDF;
+	font-size: 60px;
+	font-family: 'Montserrat', serif;
+}
+
+.skillsHeading{	
+	font-family: 'Merriweather', serif;
+	color: #828282;		
+	font-size: 35px;
+}
+
+.list-group-item{
+	color: #62ACDF;
+	font-size: 28px;
+}
+
+/*------------------------About End------------------------------------------------------------
