@@ -1,4 +1,18 @@
-Colors*/
+:root{
+	/*Colors*/
+	--blue: #62ACDF;
+	--grey: #828282;
+
+	/*Fonts*/
+	--montserrat: 'Montserrat', sans-serif;
+	--merriweather: 'Merriweather', sans-serif;
+	
+}
+
+
+
+
+*/
 /*Grey:  #828282
 Blue:  #62ACDF*/
 /*------*/
@@ -17,7 +31,8 @@ font-family: 'Ultra', serif;*/
 
 #nav{
 	padding-top: 30px;
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: var(--montserrat);*/
+	font-family: var(--montserrat);
 	
 }
 
@@ -28,35 +43,35 @@ font-family: 'Ultra', serif;*/
 }
 
 #nav a {
-	color: #828282 !important;
+	color: var(--grey) !important;
 	text-decoration: none;
 	font-size: 24px;
 }
 
 #nav a:link {
-	color: #828282 !important;
+	color: var(--grey) !important;
 }
 
 #nav a:visited {
-	color: #828282 !important;
+	color: var(--grey) !important;
 }
 
 #nav a:hover {
-	color: #828282 !important;
+	color: var(--grey) !important;
 	text-decoration: none;
 	background-color: white;
 }
 
 #nav a:active {
-	color: #828282;
+	color: var(--grey);
 }
 
 /*button.navbar-toggle.collapsed{
-	background-color: #828282;
+	background-color: var(--grey);
 	}*/
 
 	span.icon-bar{
-		background-color: #62ACDF;
+		background-color: var(--blue);
 	}
 	.glyphicon.glyphicon-download-alt{
 		font-size: 17px;
@@ -92,7 +107,7 @@ font-family: 'Ultra', serif;*/
 	}
 
 	.btn-custom{
-		background-color: #828282;
+		background-color: var(--grey);
 		color: white;	
 		width: 250px;
 	}
@@ -118,9 +133,9 @@ font-family: 'Ultra', serif;*/
 	/*Footer*/
 
 	footer {	
-		color: #828282;
+		color: var(--grey);
 		padding: 5px 32px 12px 32px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: var(--montserrat);
 
 	}
 
@@ -141,16 +156,16 @@ font-family: 'Ultra', serif;*/
 	}
 
 	.fa{
-		color: #62ACDF;
+		color: var(--blue);
 		padding-top: 10px;
 		padding-right: 5px;
 
 	}
 	a.btn-custom{
 		color: white;
-		background-color: #62ACDF;
+		background-color: var(--blue);
 		font-size: 38px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: var(--montserrat);
 	}
 
 	span.glyphicon-envelope{
@@ -181,69 +196,69 @@ font-family: 'Ultra', serif;*/
 	
 
 	p.caseStudy{
-		font-family: 'Montserrat', sans-serif;
+		font-family: var(--montserrat);
 		font-size: 15px;
 		text-decoration: none;
-		color: #62ACDF;
+		color: var(--blue);
 	}
 }
 p a.caseStudy{			
 	padding-left: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 15px;
 	text-decoration: none;					
 }
 
 p a.caseStudy:link{			
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 15px;
 	text-decoration: none;
-	color: #62ACDF;
+	color: var(--blue);
 }
 p a.caseStudy:visited{			
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 15px;
 	text-decoration: none;
-	color: #62ACDF;
+	color: var(--blue);
 }	
 p a.caseStudy:hover{			
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 15px;
 	text-decoration: none;
-	color: #62ACDF;
+	color: var(--blue);
 }
 p a.caseStudy:active{			
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 15px;
 	text-decoration: none;
-	color: #62ACDF;
+	color: var(--blue);
 }
 
 .portfolioTitle{
-	font-family: 'Merriweather', serif;
-	color: #828282;			
+	font-family: var(--merriweather);
+	color: var(--grey);			
 }
 
 
 i.fa.fa-github{
-	color: #62ACDF;
+	color: var(--blue);
 	padding-bottom: 5px;
 	text-align: center;
 
 }
 
 .summary{
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 12px;
 	/*align-content: left !important;*/
-	color: #828282;
+	color: var(--grey);
 }
 
 .subtitle{
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--montserrat);
 	font-size: 12px;
 	text-align: center !important;
-	color: #62ACDF;
+	color: var(--blue);
 }
 
 
@@ -254,37 +269,37 @@ i.fa.fa-github{
 /*About*/
 
 .aboutHeader{
-	color: #62ACDF;
+	color: var(--blue);
 	font-size: 60px;
 	font-family: 'Montserrat', serif;
 }
 
 .skillsHeading{	
-	font-family: 'Merriweather', serif;
-	color: #828282;		
+	font-family: var(--merriweather);
+	color: var(--grey);		
 	font-size: 35px;
 }
 
 .list-group-item{
-	color: #62ACDF;
+	color: var(--blue);
 	font-size: 28px;
 }
 
 .helloHeader{
 	font-size: 40px;
-	color: #62ACDF;
+	color: var(--blue);
 	/*font-family: 'Bowlby One SC', cursive;*/
 	font-family: 'Ultra', serif;*/
 
 }
 
 .bio{
-	color: #828282;
+	color: var(--grey);
 	font-size: 27px;
 	padding-top: 25px;
 }
 
 .headshot{
-	margin-bottom: 50px;
+	padding-bottom: 0 !important;
 }
 /*------------------------About End------------------------------------------------------------
